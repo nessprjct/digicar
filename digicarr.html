@@ -1,0 +1,1528 @@
+<!DOCTYPE html>
+  <html lang="en">
+     <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <!--=============== FAVICON ===============-->
+            <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+            <!--=============== ICONS ===============-->
+            <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+            <!--=============== SWIPER CSS ===============
+            <link rel="stylesheet" href="swiper-css.css">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>-->
+
+            <!--=============== CSS ===============-->
+            <link rel="stylesheet" href="stylllee.css">
+
+            <!-- font awesome cdn link  -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+            <title>DIGICAR</title>
+     </head>
+     <body>
+      
+        </header>
+        <div class="row">
+            <div class="col">
+               <h1> INTELLIGENT TIME <br> MEASUREMENT SYSTEM </h1>
+               <br>
+               <p> Get the car of your dreams with the installments
+                     of your car choice.<br> There are attractive offers don't miss it !!!
+               </p>
+               <!-- <button type="button"> choose your car </button> -->
+            </div>
+       </div>
+
+        <!--======container======-->
+        <div class="containerr"> </div>
+        
+                <!--==================== HEADER ====================-->
+                <header class="header" id="header">
+                  <nav class="nav container">
+                      <a href="#home" class="nav__logo">
+                          <i class="ri-steering-fill"></i>
+                             DIGICAR 
+                      </a>
+                        </ul>
+                  </nav>
+              </header>
+        <!--============== navbarr ===============-->
+        <div class="navbarr">
+            <div class="box1" href="#login">login</div>
+            <div class="box3" href="#vehecule">vehecule</div>
+            <div class="box4" href="#options">options</div>
+            <div class="box5" href="#news">news</div>
+
+        </div>
+        <div class="contaiiner" id="options">
+            <div class="col">
+              <div class="card-container">
+                   <div class="overlay"></div>
+                        <div class="card">
+                        <h4>a buying guide</h4>
+                        <span>&rsaquo;</span>
+                   </div>
+              </div>
+          </div>
+            
+            <div class="col">
+              <div class="card-container">
+                <div class="overlay"></div>
+                    <div class="card">
+                        <h4>top 11 cheapest ev vehecule</h4>
+                        <span>&rsaquo;</span>
+                    </div>
+              </div>
+            </div>
+            
+            <div class="col">
+              <div class="card-container">
+                    <div class="overlay"></div>
+                    <div class="card">
+                        <h4>ev car with the longest range</h4>
+                        <span>&rsaquo;</span>
+                    </div>
+              </div>
+            </div>  
+        </div>
+        
+        <!--==================== login ====================-->
+
+        <section class="offer section" id="login">
+
+            <div class="roww">
+              <div class="col">
+                  <h2 class="ttitle">
+                      do you want to receive <br> special offers???
+                  </h2>
+                  <br>
+                  <p class="texxt">
+                      be the first to receive all the information <br>about our products and new
+                      cars <br>by email by subscribing to our mailing list.
+                  </p>
+                  <br>
+                  <div type="button"> 
+                    subscribe now !!!
+                  </div>
+              </div>
+            </div>
+
+          <div class="forms-section">
+            <div class="forms">
+              <div class="form-wrapper ">
+                <button type="button" class="switcher switcher-login">
+                  Login
+                  <span class="underline"></span>
+                </button>
+                <form class="form form-login">
+                  <fieldset>
+                    <legend>Please, enter your email and password for login.</legend>
+                    <div class="input-block">
+                      <label for="login-email">E-mail</label>
+                      <input id="login-email" type="email" required>
+                    </div>
+                    <div class="input-block">
+                      <label for="login-password">Password</label>
+                      <input id="login-password" type="password" required>
+                    </div>
+                  </fieldset>
+                  <button type="submit" class="btn-login">Login</button>
+                </form>
+              </div>
+              <div class="form-wrapper is-active">
+                <button type="button" class="switcher switcher-signup">
+                  Sign Up
+                  <span class="underline"></span>
+                </button>
+                <form class="form form-signup">
+                  <fieldset>
+                    <legend>Please, enter your email, password and password confirmation for sign up.</legend>
+                    <div class="input-block">
+                      <label for="signup-email">E-mail</label>
+                      <input id="signup-email" type="email" required>
+                    </div>
+                    <div class="input-block">
+                      <label for="signup-password">Password</label>
+                      <input id="signup-password" type="password" required>
+                    </div>
+                    <div class="input-block">
+                      <label for="signup-password-confirm">Confirm password</label>
+                      <input id="signup-password-confirm" type="password" required>
+                    </div>
+                  </fieldset>
+                  <button type="submit" class="btn-signup">go</button>
+                </form>
+              </div>
+            </div>
+         </div>
+      
+        </section>
+           
+        
+
+        <!--============filter================-->
+        <section id="vehecule">
+            <div class="center">
+                <h2>Configure your dream car</h2>
+                <br>
+                <div id="myBtnContainer">
+                    <div class="btn" onclick="filterSelection('all')"><img src="img/ALL.png" alt="" class="models"></div>
+                    <div class="btn" onclick="filterSelection('audi')"><img src="img/logo2.png" alt="" class="models"></div>
+                    <div class="btn" onclick="filterSelection('porsche')"><img src="img/logo1.png" alt="" class="models"></div>
+                    <div class="btn" onclick="filterSelection('tesla')"><img src="img/logo3.png" alt="" class="models"></div>
+                    <div class="btn" onclick="filterSelection('bmw')"><img src="img/logo5.png" alt="" class="models"></div>
+                    <div class="btn" onclick="filterSelection('volks')"><img src="img/logo8.png" alt="" class="models"></div>
+                    <div class="btn" onclick="filterSelection('mercedes')"><img src="img/logo7.png" alt="" class="models"></div>
+                </div>
+            </div>
+            
+            <div class="containner">
+              <!--===========porscheeee==========-->
+              <div class="filterDiv porsche">
+                <!--==========carrrdddddd===============-->
+                <div class="conttainer">
+                
+                    <div class="box-conttainer">
+                
+                        <h1 class="headingg"> choose your electric car of the <span>porsche</span> brand</h1>
+                        <img src="img/porsche.png" alt="" class="audimode">
+
+                        <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/turbo0.jfif" class="small-img-1" alt="">
+                                    <img src="img/turbos0.png" class="small-img-1" alt="">
+                                    <img src="img/turbos1.jfif" class="small-img-1" alt="">
+                                    <img src="img/turbos11.jpg" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/turbos22.jfif" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>TURBO S</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>3.7 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>356 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>MPGe</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">96 kWh</th>
+                                      <th class="info">99miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div class="price"> $90.99 <span>$120.99</span> </div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                
+                       <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/4sssss.webp" class="small-img-1" alt="">
+                                    <img src="img/4ss.JPG" class="small-img-1" alt="">
+                                    <img src="img/4sss.JPG" class="small-img-1" alt="">
+                                    <img src="img/4ssss.webp" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/4s.webp" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>TAYCAN 4S</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>4.7 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>454 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>range</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">390 kWh</th>
+                                      <th class="info">200miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div class="price"> $200.99 <span>$250.99</span> </div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                
+                        <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/gts5.jfif" class="small-img-1" alt="">
+                                    <img src="img/gts2.jpg" class="small-img-1" alt="">
+                                    <img src="img/gts3.jpg" class="small-img-1" alt="">
+                                    <img src="img/gts4.png" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/gts0.webp" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>TAYCAN GTS</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>3.7 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>598 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>MPGe</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">100 kWh</th>
+                                      <th class="info">210miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div class=""> <h3>$250.99</h3></div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                
+                        <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/tri2.jpg" class="small-img-1" alt="">
+                                    <img src="img/tri3.jfif" class="small-img-1" alt="">
+                                    <img src="img/tri4.jfif" class="small-img-1" alt="">
+                                    <img src="img/tri5.jfif" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/tri1.jfif" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>TURBO TRISMO SPORT</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>3.2 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>680 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>MPGe</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">500 kWh</th>
+                                      <th class="info">301miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div class="price"> <h3>$310.99</h3> </div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                </div>
+            
+                 </div></div>
+              </div>
+              <!--===========audiiii==========-->
+              <div class="filterDiv audi">
+                <!--==========carrrdddddd===============-->
+                <div class="conttainer">
+                
+                    <div class="box-conttainer">
+                
+                        <h1 class="headingg"> choose your electric car of the <span>audi</span> brand</h1>
+                        <img src="img/audimode.jpg" alt="" class="audimode">
+
+                        <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/q42.jfif" class="small-img-1" alt="">
+                                    <img src="img/q43.jpg" class="small-img-1" alt="">
+                                    <img src="img/q45.jfif" class="small-img-1" alt="">
+                                    <img src="img/g44.jfif" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/q41.jpg" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>Q4 E-TRON</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>4 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>356 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>range</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">96 kWh</th>
+                                      <th class="info">99miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div class="price"> $120.99 <span>$150.99</span> </div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                
+                       <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/e1.jfif" class="small-img-1" alt="">
+                                    <img src="img/e3.jfif" class="small-img-1" alt="">
+                                    <img src="img/e5.jfif" class="small-img-1" alt="">
+                                    <img src="img/e6.jfif" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/e0.jpg" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>E-TRON</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>4.7 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>454 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>MPGe</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">390 kWh</th>
+                                      <th class="info">200miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div class="">  <h3>$200.99</h3> </div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                
+                        <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/s1.jpg" class="small-img-1" alt="">
+                                    <img src="img/s2.jpg" class="small-img-1" alt="">
+                                    <img src="img/s3.jpg" class="small-img-1" alt="">
+                                    <img src="img/s5.jfif" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/s0.jpg" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>E-TRON S</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>3.7 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>598 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>MPGe</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">100 kWh</th>
+                                      <th class="info">210miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div class=""> <h3>$350.99</h3></div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                
+                        <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/q51.jfif" class="small-img-1" alt="">
+                                    <img src="img/q52.jfif" class="small-img-1" alt="">
+                                    <img src="img/q54.jfif" class="small-img-1" alt="">
+                                    <img src="img/q5.jpg" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/q50.jpg" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>Q5 PHEV</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>3.2 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>680 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>MPGe</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">500 kWh</th>
+                                      <th class="info">301miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div > <h3>$400.99</h3> </div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                </div>
+            
+                 </div></div>
+              </div>
+              <!--===========tesla==========-->
+              <div class="filterDiv tesla">
+                <!--==========carrrdddddd===============-->
+                <div class="conttainer">
+                
+                    <div class="box-conttainer">
+                
+                        <h1 class="headingg"> choose your electric car of the <span>TESLA</span> brand</h1>
+                        <img src="img/tesss.png" alt="" class="audimode">
+
+                        <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/ms1.jpeg" class="small-img-1" alt="">
+                                    <img src="img/ms5.jfif" class="small-img-1" alt="">
+                                    <img src="img/ms3.jfif" class="small-img-1" alt="">
+                                    <img src="img/ms4.webp" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/ms0.jpeg" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>MODEL S</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>4 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>356 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>range</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">96 kWh</th>
+                                      <th class="info">99miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div class="price"> $120.99 <span>$150.99</span> </div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                
+                       <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/31.jfif" class="small-img-1" alt="">
+                                    <img src="img/32.jfif" class="small-img-1" alt="">
+                                    <img src="img/m33.jfif" class="small-img-1" alt="">
+                                    <img src="img/m35.jpg" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/m30.jpg" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>MODEL 3</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>4.7 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>454 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>MPGe</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">390 kWh</th>
+                                      <th class="info">200miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div class="">  <h3>$250.99</h3> </div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                
+                        <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/x1.jfif" class="small-img-1" alt="">
+                                    <img src="img/x2.jfif" class="small-img-1" alt="">
+                                    <img src="img/x3.jfif" class="small-img-1" alt="">
+                                    <img src="img/x4.jfif" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/x0.webp" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>MODEL X</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>3.7 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>598 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>MPGe</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">100 kWh</th>
+                                      <th class="info">210miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div class=""> <h3>$350.99</h3></div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                
+                        <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/y1.jfif" class="small-img-1" alt="">
+                                    <img src="img/y2.jfif" class="small-img-1" alt="">
+                                    <img src="img/y3.jfif" class="small-img-1" alt="">
+                                    <img src="img/y4.jfif" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/y0.webp" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>MODEL Y</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>3.2 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>680 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>MPGe</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">500 kWh</th>
+                                      <th class="info">301miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div > <h3>$400.99</h3> </div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                </div>
+            
+                 </div></div>
+              </div>
+              <!--===========bmw==========-->
+              <div class="filterDiv bmw">
+                <!--==========carrrdddddd===============-->
+                <div class="conttainer">
+                
+                    <div class="box-conttainer">
+                
+                        <h1 class="headingg"> choose your electric car of the <span>BMW</span> brand</h1>
+                        <img src="img/bmmw.jpg" alt="" class="audimode">
+
+                        <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/w1.jfif" class="small-img-1" alt="">
+                                    <img src="img/w2.jfif" class="small-img-1" alt="">
+                                    <img src="img/w3.jfif" class="small-img-1" alt="">
+                                    <img src="img/w4.jfif" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/w0.webp" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>I3</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>4 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>356 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>range</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">96 kWh</th>
+                                      <th class="info">99miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div class="price"> $20.99 <span>$22.99</span> </div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                
+                       <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/i81.jpg" class="small-img-1" alt="">
+                                    <img src="img/i82.jpg" class="small-img-1" alt="">
+                                    <img src="img/i83.jpg" class="small-img-1" alt="">
+                                    <img src="img/ii1.jpg" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/i800.jpg" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>I8</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>4.7 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>454 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>MPGe</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">390 kWh</th>
+                                      <th class="info">200miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div class="">  <h3>$500.99</h3> </div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                
+                        <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/xx3.jpg" class="small-img-1" alt="">
+                                    <img src="img/xx3.jfif" class="small-img-1" alt="">
+                                    <img src="img/xx1.jpg" class="small-img-1" alt="">
+                                    <img src="img/xxx.jfif" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/xx2.jpg" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>IX1</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>3.7 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>598 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>MPGe</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">100 kWh</th>
+                                      <th class="info">210miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div class=""> <h3>$150.99</h3></div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                
+                        <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/ix1.jpg" class="small-img-1" alt="">
+                                    <img src="img/ix2.jfif" class="small-img-1" alt="">
+                                    <img src="img/ix4.jfif" class="small-img-1" alt="">
+                                    <img src="img/ix3.jpg" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/ix0.jpg" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>IX3</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>3.2 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>680 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>MPGe</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">500 kWh</th>
+                                      <th class="info">301miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div > <h3>$200.99</h3> </div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                </div>
+            
+                 </div></div>
+              </div>
+              <!--===========mercedes==========-->
+              <div class="filterDiv mercedes">
+                <!--==========carrrdddddd===============-->
+                <div class="conttainer">
+                
+                    <div class="box-conttainer">
+                
+                        <h1 class="headingg"> choose your electric car of the <span>MERCEDES</span> brand</h1>
+                        <img src="img/gamme.png" alt="" class="audimode">
+
+                        <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/eq1.jfif" class="small-img-1" alt="">
+                                    <img src="img/eq3.jfif" class="small-img-1" alt="">
+                                    <img src="img/eq4.jpg" class="small-img-1" alt="">
+                                    <img src="img/eq5.jfif" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/eq0.jpeg" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>EQS</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>4 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>356 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>range</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">96 kWh</th>
+                                      <th class="info">99miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div class="price"> $280.99 <span>$300.99</span> </div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                
+                       <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/ee1.jpg" class="small-img-1" alt="">
+                                    <img src="img/ee2.jfif" class="small-img-1" alt="">
+                                    <img src="img/ee3.jfif" class="small-img-1" alt="">
+                                    <img src="img/ee4.jfif" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/ee0.jpg" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>EQE</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>4.7 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>454 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>MPGe</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">390 kWh</th>
+                                      <th class="info">200miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div class="">  <h3>$250.99</h3> </div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                
+                        <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/b1.webp" class="small-img-1" alt="">
+                                    <img src="img/b0.jpg" class="small-img-1" alt="">
+                                    <img src="img/b3.jpg" class="small-img-1" alt="">
+                                    <img src="img/b4.jpg" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/b00.webp" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>EQB</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>3.7 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>598 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>MPGe</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">100 kWh</th>
+                                      <th class="info">210miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div class=""> <h3>$350.99</h3></div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                
+                        <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/a1.jpg" class="small-img-1" alt="">
+                                    <img src="img/a2.jfif" class="small-img-1" alt="">
+                                    <img src="img/a3.webp" class="small-img-1" alt="">
+                                    <img src="img/a4.jfif" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/a0.jpg" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>EQA</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>3.2 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>680 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>MPGe</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">500 kWh</th>
+                                      <th class="info">301miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div > <h3>$400.99</h3> </div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                </div>
+            
+                 </div></div>
+              </div>
+              <!--===========volks==========-->
+              <div class="filterDiv volks">
+                <!--==========carrrdddddd===============-->
+                <div class="conttainer">
+                
+                    <div class="box-conttainer">
+                
+                        <h1 class="headingg"> choose your electric car of the <span>volkswagen</span> brand</h1>
+                        <img src="img/volkswagen.jpg" alt="" class="audimode">
+
+                        <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/up1.jpg" class="small-img-1" alt="">
+                                    <img src="img/up2.jpeg" class="small-img-1" alt="">
+                                    <img src="img/up3.jfif" class="small-img-1" alt="">
+                                    <img src="img/up4.jfif" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/up0.jpg" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>E-UP</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>4 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>356 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>range</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">96 kWh</th>
+                                      <th class="info">99miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div class="price"> $20.99 <span>$22.99</span> </div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                
+                       <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/i1.jpg" class="small-img-1" alt="">
+                                    <img src="img/i2.jpg" class="small-img-1" alt="">
+                                    <img src="img/i4.jfif" class="small-img-1" alt="">
+                                    <img src="img/i33.jpg" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/i0.jpg" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>ID 3</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>4.7 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>454 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>MPGe</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">390 kWh</th>
+                                      <th class="info">200miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div class="">  <h3>$15.99</h3> </div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                
+                        <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/i51.jfif" class="small-img-1" alt="">
+                                    <img src="img/i52.jfif" class="small-img-1" alt="">
+                                    <img src="img/i54.jfif" class="small-img-1" alt="">
+                                    <img src="img/i56.jpg" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/i50.jpg" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>ID 5</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>3.7 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>598 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>MPGe</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">100 kWh</th>
+                                      <th class="info">210miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div class=""> <h3>$50.99</h3></div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                
+                        <div class="box">
+                            <div class="image-conttainer">
+                                <div class="small-image">
+                                    <img src="img/bu1.jfif" class="small-img-1" alt="">
+                                    <img src="img/bu2.jfif" class="small-img-1" alt="">
+                                    <img src="img/bu3.jfif" class="small-img-1" alt="">
+                                    <img src="img/bu4.webp" class="small-img-1" alt="">
+                                </div>
+                                <div class="big-image">
+                                    <img src="img/bu0.jpg" class="" alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>ID-BUZZ</h3>
+                                <div class="stars">
+                                    <div class="popular__data-group">
+                                     <p><i class="ri-dashboard-3-line"></i>3.2 Sec</p>
+                                   </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-funds-box-line"></i>680 Km/h</p>
+                                    </div>
+          
+                                    <div class="popular__data-group">
+                                       <p><i class="ri-charging-pile-2-line"></i>Electric</p>
+                                    </div>  
+                                </div>
+                                <br>
+                                <table>
+                                    <tr>
+                                      <td class="inf"><i class="ri-pin-distance-line icons"></i>connector type</td>
+                                      <td class="inf"><i class="ri-calendar-check-line icons"></i>MPGe</td>
+                                      <td class="inf"><i class="ri-battery-charge-line icons"></i>charging time</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="info">500 kWh</th>
+                                      <th class="info">301miles</th>
+                                      <th class="info">L1(120V):24 hrs<br>L1(240V):12 hrs<br>DC Fast:80% in 15 mins</th>
+                                    </tr>
+                                  </table>
+                                <div > <h3>$150.99</h3> </div>
+                                <button href="#login" class="btn"> show more </button>
+                            </div>
+                        </div>
+                </div>
+            
+                 </div></div>
+              </div>
+            </div> 
+        </section>
+                      
+        <section>
+            <div id="container">	
+                <div class="product-details">
+                <h1>EV CHARGE</h1>
+                <br><br><br>
+                <p class="information">" Get ready to charge your all-electric
+                    vehecule at home or on the road <br>
+                    with total peace of mind. "
+                </p>        
+                    <!-- Control  -->
+                <div class="control">
+                        <!-- Start Button buying  -->
+                    <button class="bttn">
+                        <!-- the Price  -->
+                        <span class="price">1.5$</span>
+                        <!-- shopping cart icon -->
+                        <span class="shopping-cart"><i class="ri-shopping-bag-2-line"></i></span>
+                        <!-- Buy Now / ADD to Cart -->
+                        <span class="buy" style="" onclick="openNav()">Buy Now</span>
+                    </button>
+                        <!-- End Button buying  -->
+                </div>
+            </div>
+        
+
+                    <!-- product image -->
+            <div class="product-image">
+                <img src="img/ev-chargers.jpg" alt="ev charge">
+            </div>
+     </section>
+<hr>
+     <section class="app" id="news">
+        <div class="main">
+            <img src="img/appp-removebg-preview.png">
+            <div class="about-text">
+                <h1>MODERN APP</h1>
+                <h5>buy your dream car
+                <br><br> just get a car whenever you need it with your iOs or Android device.</h5>
+                <p class="paragh">we developed a simple and functional app. it is built in such a way as 
+                to simplify the problem of the car selection in one click.</p>
+                <button class="bttn">
+                    <!-- the Price  -->
+                    <span class="price"></span>
+                    <!-- shopping cart icon -->
+                    <span class="shopping-cart"><i class="ri-download-cloud-line"></i></span>
+                    <!-- Buy Now / ADD to Cart -->
+                    <span class="buy" style="" onclick="openNav()">Buy Now</span>
+                </button>
+            </div>
+        </div>
+    </section>
+     <br>
+<hr>
+<div class="footer-clean" id="contact">
+        <footer class="footer">
+            <ul class="social-icon">
+              <li class="social-icon__item"><a class="social-icon__link" href="#">
+                <i class="ri-facebook-circle-fill"></i>
+                </a></li>
+              <li class="social-icon__item"><a class="social-icon__link" href="#">
+                <i class="ri-twitter-line"></i>
+                </a></li>
+              <li class="social-icon__item"><a class="social-icon__link" href="#">
+                <i class="ri-instagram-line"></i>
+                </a></li>
+            </ul>
+            <ul class="menu">
+              <li class="menu__item"><a class="menu__link" href="#">vehecule</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">About us</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">options</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">contact</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">news</a></li>
+        
+            </ul>
+            <p>&copy;2022 Nesrine Zarrad | All Rights Reserved</p>
+          </footer>
+
+      <script>
+
+        //==============login=============//
+
+        const switchers = [...document.querySelectorAll('.switcher')]
+
+        switchers.forEach(item => {
+            item.addEventListener('click', function() {
+                switchers.forEach(item => item.parentElement.classList.remove('is-active'))
+                this.parentElement.classList.add('is-active')
+            })
+        })
+
+//============filterrr ====================//
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+
+//===========cardddddddd============//
+let toggler = document.querySelector('#toggler');
+
+toggler.onclick = () =>{
+
+    if(toggler.classList.contains('fa-sun')){
+        toggler.classList.replace('fa-sun', 'fa-moon');
+        document.body.classList.add('active');
+    }else{
+        toggler.classList.replace('fa-moon', 'fa-sun');
+        document.body.classList.remove('active');
+    }
+
+}
+
+document.querySelectorAll('.small-img-1').forEach(image =>{
+    image.addEventListener('click', () =>{
+        var src = image.getAttribute('src');
+        document.querySelector('.big-img-1').src = src;
+    });
+});
+
+document.querySelectorAll('.small-img-2').forEach(image =>{
+    image.addEventListener('click', () =>{
+        var src = image.getAttribute('src');
+        document.querySelector('.big-img-2').src = src;
+    });
+});
+
+document.querySelectorAll('.small-img-3').forEach(image =>{
+    image.addEventListener('click', () =>{
+        var src = image.getAttribute('src');
+        document.querySelector('.big-img-3').src = src;
+    });
+});
+
+document.querySelectorAll('.small-img-4').forEach(image =>{
+    image.addEventListener('click', () =>{
+        var src = image.getAttribute('src');
+        document.querySelector('.big-img-4').src = src;
+    });
+});
+
+//=====ev=========//
+function openNav() {
+  document.getElementById("myNav").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.display = "none";
+}
+
+
+</script>
+
+
+
+
+
+     </body>
