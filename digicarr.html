@@ -36,11 +36,10 @@
                 <!--==================== HEADER ====================-->
                 <header class="header" id="header">
                   <nav class="nav container">
-                      <a href="#home" class="nav__logo">
+                      <a href="#" class="nav__logo">
                           <i class="ri-steering-fill"></i>
                              DIGICAR 
                       </a>
-                        </ul>
                   </nav>
               </header>
         <!--============== navbarr ===============-->
@@ -1401,12 +1400,12 @@
               <li class="menu__item"><a class="menu__link" href="#">news</a></li>
         
             </ul>
-            <p>&copy;2022 Nesrine Zarrad | All Rights Reserved</p>
+            <p>&copy;2024 Meriem Mama | All Rights Reserved</p>
           </footer>
 
-      <script>
+<script>
 
-        //==============login=============//
+   //==============login=============//
 
         const switchers = [...document.querySelectorAll('.switcher')]
 
@@ -1417,93 +1416,38 @@
             })
         })
 
-//============filterrr ====================//
-filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("filterDiv");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
+        //============filterrr ====================//
+        filterSelection("all")
+        function filterSelection(c) {
+          var x, i;
+          x = document.getElementsByClassName("filterDiv");
+          if (c == "all") c = "";
+          for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+          }
+        }
 
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
+        function w3AddClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+          }
+        }
 
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
-    }
-  }
-  element.className = arr1.join(" ");
-}
-
-
-
-//===========cardddddddd============//
-let toggler = document.querySelector('#toggler');
-
-toggler.onclick = () =>{
-
-    if(toggler.classList.contains('fa-sun')){
-        toggler.classList.replace('fa-sun', 'fa-moon');
-        document.body.classList.add('active');
-    }else{
-        toggler.classList.replace('fa-moon', 'fa-sun');
-        document.body.classList.remove('active');
-    }
-
-}
-
-document.querySelectorAll('.small-img-1').forEach(image =>{
-    image.addEventListener('click', () =>{
-        var src = image.getAttribute('src');
-        document.querySelector('.big-img-1').src = src;
-    });
-});
-
-document.querySelectorAll('.small-img-2').forEach(image =>{
-    image.addEventListener('click', () =>{
-        var src = image.getAttribute('src');
-        document.querySelector('.big-img-2').src = src;
-    });
-});
-
-document.querySelectorAll('.small-img-3').forEach(image =>{
-    image.addEventListener('click', () =>{
-        var src = image.getAttribute('src');
-        document.querySelector('.big-img-3').src = src;
-    });
-});
-
-document.querySelectorAll('.small-img-4').forEach(image =>{
-    image.addEventListener('click', () =>{
-        var src = image.getAttribute('src');
-        document.querySelector('.big-img-4').src = src;
-    });
-});
-
-//=====ev=========//
-function openNav() {
-  document.getElementById("myNav").style.display = "block";
-}
-
-function closeNav() {
-  document.getElementById("myNav").style.display = "none";
-}
-
+        function w3RemoveClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);     
+            }
+          }
+          element.className = arr1.join(" ");
+        }
 
 </script>
 
@@ -1511,4 +1455,4 @@ function closeNav() {
 
 
 
-     </body>
+ </body>
